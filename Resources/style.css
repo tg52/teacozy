@@ -1,0 +1,134 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+
+    margin: 0;
+    text-align: center;
+}
+
+/* HEADER */
+
+.header-cont {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+
+    position: fixed;
+    z-index: 1;
+}
+
+header img {
+	height: 50px;
+	padding-left: 10px; 
+}
+
+nav {
+	text-align: right;
+	flex-grow: 1;
+}
+
+nav span {
+	padding: 20px 10px;
+}
+
+nav a {
+	color: seashell;
+}
+
+/* MAIN CONTENT*/
+
+.main-cont {
+	max-width: 1200px;
+	margin: 0 auto;
+
+	padding-top: 69px;
+}
+
+/* HERO BANNER */
+
+.hero {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	height: 700px;
+	display: flex;
+    align-items: center;
+}
+
+.schpiel {
+	background-color: black;
+	width: 100%;
+}
+
+/* TEA OF THE MONTH */
+
+.month {
+	padding-top: 80px;
+	width: 1000px;
+	margin: auto;
+}
+
+.tea-cont {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.tea {
+	padding: 20px;
+}
+
+.tea img {
+	height: 200px;
+	width: 300px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+/* LOCATIONS */
+
+.loc {
+	height: 500px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	margin-top: 80px;
+}
+
+.loc-cont {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.locations {
+	opacity: 1;
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CONTACT */
+
+.contact {
+	height: 200px;
+}
+
+/* FOOTER */
+
+.footer {
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
